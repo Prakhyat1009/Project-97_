@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <title>Project 97</title>
+</head>
+<body>
+  <div class="container">
+  <button id="back1" style="margin:30px;font-weight: bolder; background-color:lightblue; color:black; height:50px; width:110px; margin-bottom:10px; font-size:15px;" onclick="back1()">HOME</button>
+
+  <center>
+      <h1 style="font-weight:bold;">  Advanced Level comprehensions</h1>
+      <br><br>
+      <h2>1.A survival story<sub><span style="margin-left:10px; margin-bottom:-30px;"><audio controls>
+        <source src="Survival story.mp3" type="audio/mpeg">
+    </audio></sub></span></h2>
+
+      <br>
+<button id="question1" onclick="showquestion1()">Show questions <span><button id="hidequestion1" style="margin-left:10px;" onclick="hidequestion1()"> Hide questions</button></span></button>
+<br><br>
+<div id="output1" style="width:70%; background-color:rgb(203, 229, 238); padding:10px; border-radius:10px; text-align: left;"></div>
+<br><br>
+<button id="answer1" onclick="showanswer1()">Show answers <span><button id="hideanswer1" style="margin-left:10px;" onclick="hideanswer1()"> Hide answers</button></span></button>
+<br><br>
+<div id="output1ans" style="width:70%; background-color:rgb(118, 208, 238); padding:10px; border-radius:10px; text-align: left;"></div>
+
+<hr>
+
+<h2>2. S.E.T.I.<sub><span style="margin-left:10px; margin-bottom:-30px;"><audio controls>
+    <source src="4L2-seti.mp3" type="audio/mpeg">
+</audio></sub></span></h2>
+
+  <br>
+<button id="question2" onclick="showquestion2()">Show questions <span><button id="hidequestion2" style="margin-left:10px;" onclick="hidequestion2()"> Hide questions</button></span></button>
+<br><br>
+<div id="output2" style="width:70%; background-color:rgb(203, 229, 238);; padding:10px; border-radius:10px; text-align: left;"></div>
+<br><br>
+<button id="answer2" onclick="showanswer2()">Show answers <span><button id="hideanswe2" style="margin-left:10px;" onclick="hideanswer2()"> Hide answers</button></span></button>
+<br><br>
+<div id="output2ans" style="width:70%; background-color:rgb(118, 208, 238);; padding:10px; border-radius:10px; text-align: left;"></div>
+
+<hr>
+
+<h2>3. A writer talks<sub><span style="margin-left:10px; margin-bottom:-30px;"><audio controls>
+  <source src="4L10-a-writer-talks.mp3" type="audio/mpeg">
+</audio></sub></span></h2>
+
+<br>
+<button id="question3" onclick="showquestion3()">Show questions <span><button id="hidequestion3" style="margin-left:10px;" onclick="hidequestion3()"> Hide questions</button></span></button>
+<br><br>
+<div id="output3" style="width:70%; background-color:rgb(203, 229, 238);; padding:10px; border-radius:10px; text-align: left;"></div>
+<br><br>
+<button id="answer3" onclick="showanswer3()">Show answers <span><button id="hideanswe3" style="margin-left:10px;" onclick="hideanswer3()"> Hide answers</button></span></button>
+<br><br>
+<div id="output3ans" style="width:70%; background-color:rgb(118, 208, 238);; padding:10px; border-radius:10px; text-align: left;"></div>
+
+
+
+<h2>4. The pet caterer<sub><span style="margin-left:10px; margin-bottom:-30px;"><audio controls>
+  <source src="4L3-the-pet-caterer.mp3" type="audio/mpeg">
+</audio></sub></span></h2>
+
+<br>
+<button id="question4" onclick="showquestion4()">Show questions <span><button id="hidequestion4" style="margin-left:10px;" onclick="hidequestion4()"> Hide questions</button></span></button>
+<br><br>
+<div id="output4" style="width:70%; background-color:rgb(203, 229, 238);; padding:10px; border-radius:10px; text-align: left;"></div>
+<br><br>
+<button id="answer4" onclick="showanswer4()">Show answers <span><button id="hideanswe4" style="margin-left:10px;" onclick="hideanswer4()"> Hide answers</button></span></button>
+<br><br>
+<div id="output4ans" style="width:70%; background-color:rgb(118, 208, 238);; padding:10px; border-radius:10px; text-align: left;"></div>
+
+
+
+<h2>5. Having everything done<sub><span style="margin-left:10px; margin-bottom:-30px;"><audio controls>
+  <source src="Everything done.mp3" type="audio/mpeg">
+</audio></sub></span></h2>
+
+<br>
+<button id="question5" onclick="showquestion5()">Show questions <span><button id="hidequestion5" style="margin-left:10px;" onclick="hidequestion5()"> Hide questions</button></span></button>
+<br><br>
+<div id="output5" style="width:70%; background-color:rgb(203, 229, 238);; padding:10px; border-radius:10px; text-align: left;"></div>
+<br><br>
+<button id="answer5" onclick="showanswer5()">Show answers <span><button id="hideanswe5" style="margin-left:10px;" onclick="hideanswer5()"> Hide answers</button></span></button>
+<br><br>
+<div id="output5ans" style="width:70%; background-color:rgb(118, 208, 238);; padding:10px; border-radius:10px; text-align: left;"></div>
+
+
+
+
+<h2>6. Online perils<sub><span style="margin-left:10px; margin-bottom:-30px;"><audio controls>
+  <source src="Online Perils.mp3" type="audio/mpeg">
+</audio></sub></span></h2>
+
+<br>
+<button id="question6" onclick="showquestion6()">Show questions <span><button id="hidequestion6" style="margin-left:10px;" onclick="hidequestion6()"> Hide questions</button></span></button>
+<br><br>
+<div id="output6" style="width:70%; background-color:rgb(203, 229, 238);; padding:10px; border-radius:10px; text-align: left;"></div>
+<br><br>
+<button id="answer6" onclick="showanswer6()">Show answers <span><button id="hideanswe6" style="margin-left:10px;" onclick="hideanswer6()"> Hide answers</button></span></button>
+<br><br>
+<div id="output6ans" style="width:70%; background-color:rgb(118, 208, 238);; padding:10px; border-radius:10px; text-align: left;"></div>
+
+
+
+
+<h2>7. A gripping read<sub><span style="margin-left:10px; margin-bottom:-30px;"><audio controls>
+  <source src="4L15-a-gripping-read.mp3" type="audio/mpeg">
+</audio></sub></span></h2>
+
+<br>
+<button id="question7" onclick="showquestion7()">Show questions <span><button id="hidequestion7" style="margin-left:10px;" onclick="hidequestion7()"> Hide questions</button></span></button>
+<br><br>
+<div id="output7" style="width:70%; background-color:rgb(203, 229, 238);; padding:10px; border-radius:10px; text-align: left;"></div>
+<br><br>
+<button id="answer7" onclick="showanswer7()">Show answers <span><button id="hideanswe7" style="margin-left:10px;" onclick="hideanswer7()"> Hide answers</button></span></button>
+<br><br>
+<div id="output7ans" style="width:70%; background-color:rgb(118, 208, 238);; padding:10px; border-radius:10px; text-align: left;"></div>
+
+</center>  
+  <br>
+  <script src="main3.js"></script>
+</div>
+</body>
+</html>
